@@ -97,11 +97,11 @@ F 3 "~" H 7800 6450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x35 J1
+L Connector_Generic:Conn_01x36 J1
 U 1 1 601EB970
 P 5750 600
 F 0 "J1" V 5967 596 50  0000 C CNN
-F 1 "Conn_01x35" V 5876 596 50  0000 C CNN
+F 1 "Conn_01x36" V 5876 596 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical" H 5750 600 50  0001 C CNN
 F 3 "~" H 5750 600 50  0001 C CNN
 	1    5750 600 
@@ -506,14 +506,14 @@ Wire Wire Line
 Wire Wire Line
 	8600 4950 8600 6250
 $Comp
-L Connector_Generic:Conn_01x17 J4
+L Connector_Generic:Conn_01x18 J4
 U 1 1 60503150
-P 4850 6400
-F 0 "J4" V 4975 6396 50  0000 C CNN
-F 1 "Conn_01x17" V 5066 6396 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 4850 6400 50  0001 C CNN
-F 3 "~" H 4850 6400 50  0001 C CNN
-	1    4850 6400
+P 4950 6400
+F 0 "J4" V 5075 6396 50  0000 C CNN
+F 1 "Conn_01x18" V 5166 6396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 4950 6400 50  0001 C CNN
+F 3 "~" H 4950 6400 50  0001 C CNN
+	1    4950 6400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -528,4 +528,28 @@ Wire Wire Line
 	6900 5200 5750 5200
 Wire Wire Line
 	5750 5200 5750 4150
+$Comp
+L power:GND #PWR0101
+U 1 1 6032E2E7
+P 6000 6200
+F 0 "#PWR0101" H 6000 5950 50  0001 C CNN
+F 1 "GND" H 6005 6027 50  0000 C CNN
+F 2 "" H 6000 6200 50  0001 C CNN
+F 3 "" H 6000 6200 50  0001 C CNN
+	1    6000 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6200 5750 6200
+$Comp
+L power:GND #PWR?
+U 1 1 60379D70
+P 3950 800
+F 0 "#PWR?" H 3950 550 50  0001 C CNN
+F 1 "GND" H 3955 627 50  0000 C CNN
+F 2 "" H 3950 800 50  0001 C CNN
+F 3 "" H 3950 800 50  0001 C CNN
+	1    3950 800 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
